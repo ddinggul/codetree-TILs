@@ -13,8 +13,8 @@ elif b >= a:
         result = b
     else:
         result = c
-else:
-    if c >= a:
+elif c >= a:
+    if c >= b:
         result = c
     else:
         result = b
